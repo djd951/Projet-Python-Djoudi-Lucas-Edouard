@@ -1,2 +1,3 @@
 # Projet-Python-Djoudi-Lucas-Edouard
-This is our project
+To achieve our project, we did serveral step that we are going to introduce.
+, 
