@@ -25,14 +25,14 @@ So we encoded our variables for making them numeric with the LabelEncoder().
 Then we splited out dataset into Train and Test.
 We used 3 algorithms for modelling : Random_Forest, SVM and KNN.
 For Cocaine consumption : 
----> We only used the attributes in the first modelisation , and in the second modelisation we used the attributes and the other drug consumption.
----> Our metric of comparaison between algorithms and method was the Accuracy
----> We tried to predict all of the labels , so Last day or Last Week or Last Year.
+- We only used the attributes in the first modelisation , and in the second modelisation we used the attributes and the other drug consumption.
+- Our metric of comparaison between algorithms and method was the Accuracy
+- We tried to predict all of the labels , so Last day or Last Week or Last Year.
 We noticed that using only attributes, the accuracy of classfication algorithms is better for SVM algorithms, then Random_Forest, and then KNN. But, using the attributes and drug consumptions, Random_Forest is the one with the best accuracy, then SVM algotithms, and then KNN. And it makes sense that using the other drugs consumption is doing a better prediction because most of the time if someone is taking cocaine, he will take something else.
-For Canabis Consumption
----> So we used only the attributes
----> We tried to predict only 2 labels, people who consumed Canabis in the last month or more recently, and the people who consumed Canabis in the last year or more formely
----> We compared each algorithm with a Roc Curve
+For Canabis Consumption : 
+- We used only the attributes
+- We tried to predict only 2 labels, people who consumed Canabis in the last month or more recently, and the people who consumed Canabis in the last year or more formely
+- We compared each algorithm with a Roc Curve
 
 ####### Resultat des analyses a mettre ici ######
 
